@@ -16,7 +16,5 @@ class Main4Activity : AppCompatActivity() {
             val intent = Intent(this, Main3Activity::class.java)
             startActivity(intent)
         }
-
-        val count = 12
     }
 }
