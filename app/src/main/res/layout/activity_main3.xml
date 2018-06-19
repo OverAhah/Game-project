@@ -52,6 +52,6 @@
         android:layout_height="44dp"
         android:layout_alignStart="@+id/Text"
         android:layout_below="@+id/Speaker"
-        android:text="Как вас зовут?" />
+        android:hint="Как вас зовут?" />
 
 </RelativeLayout>

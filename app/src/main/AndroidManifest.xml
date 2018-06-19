@@ -19,7 +19,8 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main4Activity" />
-        <activity android:name=".MainActivityFinish"></activity>
+        <activity android:name=".MainActivityFinish" />
+        <activity android:name=".DataBaseTest"></activity>
     </application>
 
 </manifest>
