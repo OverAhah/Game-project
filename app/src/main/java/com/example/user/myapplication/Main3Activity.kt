@@ -21,10 +21,5 @@ class Main3Activity : AppCompatActivity() {
             val intent = Intent(this, Main4Activity::class.java)
             startActivity(intent)
         }
-
-        Menu31.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
