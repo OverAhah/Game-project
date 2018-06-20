@@ -3,6 +3,7 @@ package com.example.user.myapplication
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import kotlinx.android.synthetic.main.activity_main3.*
 
 class Main3Activity : AppCompatActivity() {
@@ -21,5 +22,7 @@ class Main3Activity : AppCompatActivity() {
             val intent = Intent(this, Main4Activity::class.java)
             startActivity(intent)
         }
+
+        //Name1.event //Speaker.text = "$Name1"
     }
 }

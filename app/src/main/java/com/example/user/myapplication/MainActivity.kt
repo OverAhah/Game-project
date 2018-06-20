@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        options.setOnClickListener {
-            val intent = Intent(this, Main2Activity::class.java)
-            startActivity(intent)
-        }
+        //options.setOnClickListener {
+        //    val intent = Intent(this, Main2Activity::class.java)
+        //    startActivity(intent)
+        //}
 
     }
 }

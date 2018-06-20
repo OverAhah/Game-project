@@ -20,7 +20,7 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Something Else" />
+        android:text="Continue (Coming Soon)" />
 
     <Button
         android:id="@+id/options"
@@ -29,7 +29,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/New_Game"
         android:layout_marginBottom="56dp"
-        android:text="Options" />
+        android:text="Options (Coming Soon)" />
 
     <ImageView
         android:id="@+id/imageView2"
