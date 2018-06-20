@@ -12,6 +12,12 @@ class Main4Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
 
+        Answer1.text = "Отправиться во дворец (сразу, никому не говоря)"
+
+        Answer2.text = "Собрать группу дворян, чтобы обсудить этот вопрос"
+
+        Answer3.text = "Послать дядю с заявлением, что вы скончались"
+
         Answer1.setOnClickListener {
             val intent = Intent(this, Main5Activity::class.java)
             startActivity(intent)
