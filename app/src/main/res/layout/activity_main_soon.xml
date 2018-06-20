@@ -19,6 +19,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:text="New Content Coming Soon!"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30dp" />
 
@@ -30,6 +31,7 @@
         android:layout_centerVertical="true"
         android:text="You can buy new content on Friday 22.06.2018!"
         android:textColor="@android:color/black"
+        android:textAlignment="center"
         android:textSize="30dp" />
 
     <Button
@@ -38,5 +40,7 @@
         android:layout_height="150dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:textAlignment="center"
         android:text="Heck, go Back!" />
+
 </RelativeLayout>
