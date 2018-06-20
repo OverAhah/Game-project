@@ -34,10 +34,10 @@ class Main4Activity : AppCompatActivity() {
                 startActivity(intent)
             }
 
-            //Answer2.setOnClickListener {
-            //    val intent = Intent(this, Main6Activity::class.java)
-            //    startActivity(intent)
-            //}
+            Answer2.setOnClickListener {
+                val intent = Intent(this, Main6Activity::class.java)
+                startActivity(intent)
+            }
 
             Answer3.setOnClickListener {
                 val intent = Intent(this, Main7Activity::class.java)
