@@ -10,8 +10,8 @@
         android:id="@+id/New_Game"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_alignRight="@id/button1"
-        android:layout_marginTop="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:text="New Game" />
 
     <Button
@@ -20,16 +20,14 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Something Else" />
+        android:text="Continue (Coming Soon)" />
 
     <Button
         android:id="@+id/options"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="Options" />
+        android:layout_centerHorizontal="true"
+        android:text="Options (Coming Soon)" />
 
 </RelativeLayout>
