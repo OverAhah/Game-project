@@ -10,7 +10,9 @@ class Main5Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main5)
 
-        Text1.text = "SomeThing"
+        Text1.text = "К сожалению, вы умерли по пути в столицу." +
+                "Чтож, повезет в другой раз"
+
 
     }
 }
