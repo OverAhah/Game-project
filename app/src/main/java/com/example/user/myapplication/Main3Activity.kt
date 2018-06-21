@@ -31,7 +31,7 @@ class Main3Activity : AppCompatActivity() {
         Answer2.text = "Послать дядю с заявлением, что вы скончались"
 
         Answer1.setOnClickListener {
-            val intent = Intent(this, Main5Activity::class.java)
+            val intent = Intent(this, Main9Activity::class.java)
             startActivity(intent)
         }
 

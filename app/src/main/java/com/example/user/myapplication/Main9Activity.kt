@@ -1,5 +1,6 @@
 package com.example.user.myapplication
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main9.*
@@ -23,5 +24,30 @@ class Main9Activity : AppCompatActivity() {
 
         Answer95.text = "Вдова богатейшего рода дворян"
 
+
+        Answer91.setOnClickListener {
+            val intent = Intent(this, Main10Activity::class.java)
+                   startActivity(intent)
+        }
+
+        Answer92.setOnClickListener {
+            val intent = Intent(this, Main10Activity::class.java)
+            startActivity(intent)
+        }
+
+        Answer93.setOnClickListener {
+            val intent = Intent(this, Main10Activity::class.java)
+            startActivity(intent)
+        }
+
+        Answer94.setOnClickListener {
+            val intent = Intent(this, Main10Activity::class.java)
+            startActivity(intent)
+        }
+
+        Answer95.setOnClickListener {
+            val intent = Intent(this, Main10Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

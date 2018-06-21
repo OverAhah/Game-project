@@ -7,10 +7,12 @@
     tools:context=".Main3Activity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/backgroundday"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@android:color/darker_gray" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bgdayprince" />
 
     <TextView
         android:id="@+id/Text"
@@ -20,7 +22,7 @@
         android:layout_centerInParent="true"
         android:text="TextView"
         android:textColor="@android:color/black"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/Speaker"

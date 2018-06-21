@@ -23,27 +23,27 @@ class Main7Activity : AppCompatActivity() {
         Answer5.text = "красивая дочь дворянина любит балы больше интересует любовь нежели власть"
 
         Answer1.setOnClickListener {
-            val intent = Intent(this, Main9Activity::class.java)
+            val intent = Intent(this, Main01Activity::class.java)
             startActivity(intent)
         }
 
         Answer2.setOnClickListener {
-            val intent = Intent(this, Main9Activity::class.java)
+            val intent = Intent(this, Main01Activity::class.java)
             startActivity(intent)
         }
 
         Answer3.setOnClickListener {
-            val intent = Intent(this, Main9Activity::class.java)
+            val intent = Intent(this, Main01Activity::class.java)
             startActivity(intent)
         }
 
         Answer4.setOnClickListener {
-            val intent = Intent(this, Main9Activity::class.java)
+            val intent = Intent(this, Main01Activity::class.java)
             startActivity(intent)
         }
 
         Answer5.setOnClickListener {
-            val intent = Intent(this, Main9Activity::class.java)
+            val intent = Intent(this, Main01Activity::class.java)
             startActivity(intent)
         }
 
