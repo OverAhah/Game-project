@@ -6,30 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/New_Game"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_alignRight="@id/button1"
-        android:layout_marginTop="@android:dimen/notification_large_icon_height"
-        android:text="New Game" />
+    <ImageView
+        android:id="@+id/backgroundday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bgdayprince" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+    <ImageView
+        android:id="@+id/logoday"
+        android:layout_width="287dp"
+        android:layout_height="191dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Something Else" />
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/logodayprince" />
 
-    <Button
-        android:id="@+id/options"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="Options" />
+    <ImageView
+        android:id="@+id/newgameday"
+        android:layout_width="173dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/newgameprince" />
+
+    <ImageView
+        android:id="@+id/continueday"
+        android:layout_width="187dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/continueprince" />
+
+    <ImageView
+        android:id="@+id/settingsday"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        app:srcCompat="@drawable/settingsprince" />
+
+    <ImageView
+        android:id="@+id/creditsday"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        app:srcCompat="@drawable/creditsprince" />
 
 </RelativeLayout>
