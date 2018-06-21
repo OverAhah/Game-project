@@ -23,10 +23,13 @@ class Main3Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        Name1.setOnKeyListener { Enter, keyCode, event ->
+        Name1.setOnKeyListener { _, keyCode, event ->
             if(event.action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER)
-                Speaker.text = "$Name1"
-            true
+                Speaker.text = Name1.text
+                true
         }
+
+
+
     }
 }
