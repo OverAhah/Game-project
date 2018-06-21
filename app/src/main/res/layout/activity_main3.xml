@@ -14,37 +14,72 @@
 
     <TextView
         android:id="@+id/Text"
-        android:layout_width="320dp"
-        android:layout_height="328dp"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name1"
         android:layout_centerInParent="true"
         android:text="TextView"
-        android:textSize="20dp"
         android:textColor="@android:color/black"
-        android:layout_below="@id/Name1"/>
-
-    <Button
-        android:id="@+id/Answers"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Text"
-        android:text="Next" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/Speaker"
-        android:layout_width="320dp"
-        android:layout_height="48dp"
-        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Speaker" />
+        android:text="Speaker"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Speaker"
+        android:layout_centerHorizontal="true"
+        android:text="" />
 
     <EditText
         android:id="@+id/Name1"
         android:layout_width="320dp"
         android:layout_height="44dp"
-        android:layout_alignStart="@+id/Text"
-        android:layout_below="@+id/Speaker"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
         android:hint="Как вас зовут?" />
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView9"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer2"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer1"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text"
+        android:layout_centerHorizontal="true"
+        android:text="" />
 
 </RelativeLayout>
