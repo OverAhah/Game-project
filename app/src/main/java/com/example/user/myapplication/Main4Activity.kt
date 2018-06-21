@@ -23,25 +23,6 @@ class Main4Activity : AppCompatActivity() {
 
 
 
-            Answer1.text = "Отправиться во дворец (сразу, никому не говоря)"
 
-            Answer3.text = "Собрать группу дворян, чтобы обсудить этот вопрос"
-
-            Answer2.text = "Послать дядю с заявлением, что вы скончались"
-
-            Answer1.setOnClickListener {
-                val intent = Intent(this, Main5Activity::class.java)
-                startActivity(intent)
-            }
-
-            Answer2.setOnClickListener {
-                val intent = Intent(this, Main6Activity::class.java)
-                startActivity(intent)
-            }
-
-            Answer3.setOnClickListener {
-                val intent = Intent(this, Main7Activity::class.java)
-                startActivity(intent)
-            }
         }
 }

@@ -17,7 +17,7 @@
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/Answer3"
@@ -26,7 +26,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Answer2"
         android:text=""
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/Answer2"
@@ -35,7 +35,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Answer1"
         android:text=""
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

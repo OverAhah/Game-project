@@ -23,11 +23,48 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/GoNext"
+        android:id="@+id/Answer1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/Plot1"
-        android:layout_centerHorizontal="true"
-        android:text="Next" />
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer5"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer4"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer1"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Answer5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer2"
+        android:text=""
+        android:textSize="20dp" />
 
 </RelativeLayout>

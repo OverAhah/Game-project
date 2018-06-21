@@ -18,18 +18,32 @@ class Main3Activity : AppCompatActivity() {
                 "Что вы будете делать?"
 
 
-        Answers.setOnClickListener{
-            val intent = Intent(this, Main4Activity::class.java)
-            startActivity(intent)
-        }
-
         Name1.setOnKeyListener { _, keyCode, event ->
             if(event.action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER)
                 Speaker.text = Name1.text
                 true
         }
 
+        Answer1.text = "Отправиться во дворец (сразу, никому не говоря)"
 
+        Answer3.text = "Собрать группу дворян, чтобы обсудить этот вопрос"
+
+        Answer2.text = "Послать дядю с заявлением, что вы скончались"
+
+        Answer1.setOnClickListener {
+            val intent = Intent(this, Main5Activity::class.java)
+            startActivity(intent)
+        }
+
+        Answer2.setOnClickListener {
+            val intent = Intent(this, Main6Activity::class.java)
+            startActivity(intent)
+        }
+
+        Answer3.setOnClickListener {
+            val intent = Intent(this, Main7Activity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
