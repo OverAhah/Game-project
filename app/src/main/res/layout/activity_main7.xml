@@ -4,67 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.myapplication.Main7Activity">
+    tools:context="com.example.user.myapplication.Question2">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/backgroundday"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@android:color/darker_gray" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bgdayprince" />
 
     <TextView
         android:id="@+id/Plot1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true"
+        android:paddingHorizontal="10sp"
         android:text="///_*-*_\\\"
         android:textColor="@android:color/black"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/Answer1"
-        android:layout_width="match_parent"
+        android:layout_width="360sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/Plot1"
+        android:layout_centerHorizontal="true"
         android:text=""
-        android:textSize="20dp" />
-
-    <Button
-        android:id="@+id/Answer3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Answer5"
-        android:text=""
-        android:textSize="20dp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/Answer2"
-        android:layout_width="match_parent"
+        android:layout_width="360sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Answer4"
+
+        android:layout_below="@+id/Answer1"
+        android:layout_centerHorizontal="true"
         android:text=""
-        android:textSize="20dp" />
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Answer2"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/Answer4"
-        android:layout_width="match_parent"
+        android:layout_width="360sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Answer1"
+
+        android:layout_below="@+id/Answer3"
+        android:layout_centerHorizontal="true"
         android:text=""
-        android:textSize="20dp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/Answer5"
-        android:layout_width="match_parent"
+        android:layout_width="360sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Answer2"
+
+        android:layout_below="@+id/Answer4"
+        android:layout_centerHorizontal="true"
         android:text=""
-        android:textSize="20dp" />
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="" />
 
 </RelativeLayout>

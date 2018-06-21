@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         newgameday.setOnClickListener {
-            val intent = Intent(this, Main3Activity::class.java)
+            val intent = Intent(this, IntroductionPlusQuastion1::class.java)
             startActivity(intent)
         }
 
