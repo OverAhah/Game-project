@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.myapplication.MainActivityStart">
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="278dp"
-        android:layout_height="420dp"
-        android:layout_centerInParent="true"
-        android:src="@mipmap/ic_launcher_background123" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/ic_launcher_background123" />
 
     <Button
         android:id="@+id/Perexod"
@@ -21,4 +24,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="134dp"
         android:text="Button" />
+
 </RelativeLayout>
