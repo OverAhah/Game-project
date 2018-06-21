@@ -48,7 +48,8 @@
         android:id="@+id/Restart"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:text="Хотите попробовать сделать что-то стящее?" />
 </RelativeLayout>
