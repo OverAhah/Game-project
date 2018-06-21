@@ -9,9 +9,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        this.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main)
 
-        New_Game.setOnClickListener {
+        newgameday.setOnClickListener {
             val intent = Intent(this, Main3Activity::class.java)
             startActivity(intent)
         }
