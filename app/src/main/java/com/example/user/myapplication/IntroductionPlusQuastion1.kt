@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.view.KeyEvent
 import kotlinx.android.synthetic.main.activity_main3.*
 
-class Main3Activity : AppCompatActivity() {
+class IntroductionPlusQuastion1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
 
 
-        Text.text = "Вы являетесь сыном короля и дворянки из бедного рода. Ваша жизнь тихая и размеренная. Ваш дядя заменил вам отца и уже выбрал вам в партию прекрасную дворянку.\n" +
+        Text11111.text = "Вы являетесь сыном короля и дворянки из бедного рода. Ваша жизнь тихая и размеренная. Ваш дядя заменил вам отца и уже выбрал вам в партию прекрасную дворянку.\n" +
                 "Однажды вам приходить известие о смерти короля и, что он перед смертью пожелал чтобы вы стали новым королем, а не ваш брат от другой матери.\n" +
                 "Что вы будете делать?"
 
@@ -36,12 +36,12 @@ class Main3Activity : AppCompatActivity() {
         }
 
         Answer2.setOnClickListener {
-            val intent = Intent(this, Main6Activity::class.java)
+            val intent = Intent(this, GoodEnd::class.java)
             startActivity(intent)
         }
 
         Answer3.setOnClickListener {
-            val intent = Intent(this, Main7Activity::class.java)
+            val intent = Intent(this, Question2::class.java)
             startActivity(intent)
         }
 

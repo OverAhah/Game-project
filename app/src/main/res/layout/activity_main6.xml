@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main6Activity">
+    tools:context=".GoodEnd">
 
     <ImageView
         android:id="@+id/backgroundday"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textColor="@android:color/black"
         android:text="Поздравляем!" />
 
@@ -33,19 +33,20 @@
         android:text="" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/TextView5"
         android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Empty"
         android:layout_centerHorizontal="true"
-        android:textSize="15dp"
+        android:textSize="15sp"
+        android:paddingHorizontal="10sp"
         android:textColor="@android:color/black"
-        android:text="Вы доживаете жизнь в качестве сына дворянина и умираете в старости в окружении близких вам людей!" />
+        android:text="" />
 
     <Button
         android:id="@+id/Restart"
-        android:layout_width="match_parent"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"

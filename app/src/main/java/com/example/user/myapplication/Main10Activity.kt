@@ -16,4 +16,5 @@ class Main10Activity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }
