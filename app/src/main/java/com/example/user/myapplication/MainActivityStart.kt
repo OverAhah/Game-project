@@ -12,7 +12,7 @@ class MainActivityStart : AppCompatActivity() {
         setContentView(R.layout.activity_main_start)
 
         Perexod.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+           val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

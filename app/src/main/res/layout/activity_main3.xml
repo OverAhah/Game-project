@@ -18,6 +18,8 @@
         android:layout_height="328dp"
         android:layout_centerInParent="true"
         android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
         android:layout_below="@id/Name1"/>
 
     <Button

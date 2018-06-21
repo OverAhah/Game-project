@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.myapplication.Main7Activity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:color/darker_gray" />
+
     <TextView
         android:id="@+id/Plot1"
         android:layout_width="wrap_content"
@@ -13,7 +19,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="///_*-*_\\\"
-        android:textSize="15dp" />
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/GoNext"
