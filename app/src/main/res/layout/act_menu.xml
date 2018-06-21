@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bgdayprince" />
+
+    <ImageView
+        android:id="@+id/logoday"
+        android:layout_width="287dp"
+        android:layout_height="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/logodayprince" />
+
+    <ImageView
+        android:id="@+id/newgameday"
+        android:layout_width="173dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/newgameprince" />
+
+    <ImageView
+        android:id="@+id/settingsday"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/settingsprince" />
+
+    <ImageView
+        android:id="@+id/creditsday"
+        android:layout_width="175dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/logoday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/creditsprince" />
+
+</RelativeLayout>
