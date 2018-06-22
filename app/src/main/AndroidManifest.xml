@@ -18,6 +18,9 @@
             android:name=".Settings"
             android:parentActivityName=".Menu" />
         <activity
+            android:name=".Credits"
+            android:parentActivityName=".Menu" />
+        <activity
             android:name=".FirstQ"
             android:parentActivityName=".Menu" />
         <activity

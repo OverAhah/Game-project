@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="73dp"
         android:background="@drawable/buttondayprince"
-        android:text="Граф." />
+        android:text="Граф."
+        android:textColor="#000000"/>
 
     <ImageView
         android:id="@+id/backgroundday3"
@@ -44,6 +45,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:background="@drawable/buttondayprince"
-        android:text="Герцог." />
+        android:text="Герцог."
+        android:textColor="#000000"/>
 
 </RelativeLayout>
