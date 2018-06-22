@@ -9,37 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"  android:screenOrientation="portrait">
+        <activity
+            android:name=".Menu">
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".FirstQ"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".SecondFirstQ"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".SecondSecondQ"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Intermediate1"
+            android:parentActivityName=".Menu" />
+        <activity android:name=".Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main2Activity" android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".IntroductionPlusQuastion1"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Main4Activity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".IntroductionPlusQuastion1" />
-        <activity android:name=".MainActivityFinish" android:screenOrientation="portrait" />
-        <activity
-            android:name=".Death1"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".Main4Activity" />
-        <activity android:name=".MainActivityStart" android:screenOrientation="portrait"/>
-        <activity android:name=".Question2" android:screenOrientation="portrait"/>
-        <activity android:name=".GoodEnd" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivitySoon" android:screenOrientation="portrait"/>
-        <activity android:name=".Main9Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Main10Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Main01Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityTest" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
