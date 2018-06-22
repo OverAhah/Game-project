@@ -45,6 +45,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:background="@drawable/buttondayprince"
-        android:text="Созвать совет дворян." />
+        android:text="Созвать совет дворян."
+        android:textColor="#FFFFFF"/>
 
 </RelativeLayout>
