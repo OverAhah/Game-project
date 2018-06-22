@@ -4,14 +4,13 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.act_menu.*
+import kotlinx.android.synthetic.main.act_settings.*
 
-class Main2Activity : AppCompatActivity() {
+class Settings : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
-        //if(switch1)
+        setContentView(R.layout.act_settings)
     }
 }
