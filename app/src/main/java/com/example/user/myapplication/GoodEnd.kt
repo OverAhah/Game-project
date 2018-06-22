@@ -14,7 +14,7 @@ class GoodEnd : AppCompatActivity() {
         TextView5.text = "Вы доживаете жизнь в качестве сына дворянина и умираете в старости в окружении близких и дорогих вам людей!"
 
         Restart.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Start::class.java)
             startActivity(intent)
         }
     }

@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class Start : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //options.setOnClickListener {
-        //    val intent = Intent(this, Main2Activity::class.java)
-        //    startActivity(intent)
-        //}
+        settingsday.setOnClickListener {
+            val intent = Intent(this, Main2Activity::class.java)
+            startActivity(intent)
+        }
 
     }
 }

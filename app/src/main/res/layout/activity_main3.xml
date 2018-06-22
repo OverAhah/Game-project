@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".`Introduction+Quastion1`">
+    tools:context=".IntroductionPlusQuastion1">
 
     <ImageView
         android:id="@+id/backgroundday"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -50,33 +51,6 @@
         android:layout_centerHorizontal="true"
         android:hint="Как вас зовут?" />
 
-    <Button
-        android:id="@+id/Answer1"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView9"
-        android:layout_centerHorizontal="true"
-        android:text=""
-        android:textSize="15sp" />
-
-    <Button
-        android:id="@+id/Answer3"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Answer2"
-        android:layout_centerHorizontal="true"
-        android:text=""
-        android:textSize="15sp" />
-
-    <Button
-        android:id="@+id/Answer2"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Answer1"
-        android:layout_centerHorizontal="true"
-        android:text=""
-        android:textSize="15sp" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -84,5 +58,38 @@
         android:layout_below="@+id/Text11111"
         android:layout_centerHorizontal="true"
         android:text="" />
+
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView9"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer1"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Answer2"
+        android:text=""
+        android:textSize="15sp" />
+
+
 
 </RelativeLayout>

@@ -4,7 +4,6 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main5.*
-import kotlinx.android.synthetic.main.activity_main6.*
 
 class Death1 : AppCompatActivity() {
 
@@ -16,7 +15,7 @@ class Death1 : AppCompatActivity() {
                 "Чтож, повезет в другой раз"
 
         Restart1.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Start::class.java)
             startActivity(intent)
         }
     }

@@ -1,13 +1,16 @@
 package com.example.user.myapplication
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
 import android.view.KeyEvent
 import kotlinx.android.synthetic.main.activity_main3.*
 
 class IntroductionPlusQuastion1 : AppCompatActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
@@ -47,3 +50,4 @@ class IntroductionPlusQuastion1 : AppCompatActivity() {
 
     }
 }
+
