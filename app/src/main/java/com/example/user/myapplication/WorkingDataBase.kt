@@ -5,6 +5,7 @@ import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteException
 import android.database.sqlite.SQLiteOpenHelper
+import android.util.Log
 import java.io.FileOutputStream
 import java.io.IOException
 
@@ -29,7 +30,7 @@ class WorkingDataBase
      * Создает пустую базу данных и перезаписывает ее нашей собственной базой
      */
     @Throws(IOException::class)
-    fun createDataBase() {
+    private fun createDataBase() {
         val dbExist = checkDataBase()
 
         if (dbExist) {
@@ -97,7 +98,7 @@ class WorkingDataBase
     }
 
     @Throws(SQLException::class)
-    fun openDataBase() {
+    private fun openDataBase() {
         //открываем БД
         val myPath = dbPATH + dbNAME
         myDataBase = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READWRITE)
@@ -128,11 +129,17 @@ class WorkingDataBase
         openDataBase()
         //println(myDataBase!!.path)
         try {
-            val c = myDataBase!!.rawQuery("SELECT * FROM \"questions\" where type = 'table'", null)
-            if (c == null) return null
+            if (myDataBase == null)
+                println("null database")
+            val c = myDataBase!!.rawQuery(/*"SELECT * FROM questions"*/"SELECT name FROM sqlite_master WHERE type='table'", null)
+            if (c == null) {
+                println("null cursor")
+                return null
+            } else println("not null cursor")
             c.moveToFirst()
             do {
-                temp.add(Pair(c.getString(c.getColumnIndex("Question")), Triple(
+                println(c.getString(0))
+                /*temp.add(Pair(c.getString(c.getColumnIndex("Question")), Triple(
                         c.getInt(c.getColumnIndex("ans1")),
                         c.getInt(c.getColumnIndex("ans2")),
                         c.getInt(c.getColumnIndex("ans3"))
@@ -141,7 +148,7 @@ class WorkingDataBase
                     myDataBase!!.close()
                     c.close()
                     return temp.last()
-                }
+                }*/
             } while (c.moveToNext())
             c.close()
         } catch (e: Exception) {
@@ -158,7 +165,7 @@ class WorkingDataBase
         checkDataBase()
         openDataBase()
         try {
-            val c = myDataBase!!.rawQuery("SELECT * FROM answers", null)
+            val c = myDataBase!!.rawQuery("SELECT * FROM \"answers\"", null)
             if (c == null) return null
             c.moveToFirst()
             do {

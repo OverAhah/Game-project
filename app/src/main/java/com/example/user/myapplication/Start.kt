@@ -11,6 +11,8 @@ class Start : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.act_start)
 
+        WorkingDataBase(this).getQuestion(2)
+
         backgroundday2.setOnClickListener {
            val intent = Intent(this, Menu::class.java)
             startActivity(intent)

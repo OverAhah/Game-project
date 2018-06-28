@@ -22,9 +22,9 @@ class Menu : AppCompatActivity() {
             startActivity(intent)
         }
 
-        creditsday.setOnClickListener {
+        /*creditsday.setOnClickListener {
             val intent = Intent(this, Credits::class.java)
             startActivity(intent)
-        }
+        }*/
     }
 }
