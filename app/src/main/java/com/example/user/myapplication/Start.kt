@@ -4,7 +4,6 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.act_start.*
-import kotlinx.android.synthetic.main.act_start.*
 
 class Start : AppCompatActivity() {
 

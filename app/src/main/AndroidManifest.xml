@@ -32,6 +32,18 @@
         <activity
             android:name=".Intermediate1"
             android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Line1"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".HappyEnd"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".ForeEnd"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".LibeEnd"
+            android:parentActivityName=".Menu" />
         <activity android:name=".Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

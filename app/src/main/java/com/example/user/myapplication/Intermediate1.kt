@@ -22,7 +22,7 @@ class Intermediate1 : AppCompatActivity() {
 
 
         next.setOnClickListener{
-            val intent = Intent(this, Menu::class.java)
+            val intent = Intent(this, Line1::class.java)
             startActivity(intent)
         }
 

@@ -23,11 +23,13 @@ class SecondSecondQ : AppCompatActivity() {
 
 
         answer1.setOnClickListener{
+            Stats.change_libe(20)
             val intent = Intent(this, Intermediate1::class.java)
             startActivity(intent)
         }
 
         answer2.setOnClickListener{
+            Stats.change_cons(20)
             val intent = Intent(this, Intermediate1::class.java)
             startActivity(intent)
         }

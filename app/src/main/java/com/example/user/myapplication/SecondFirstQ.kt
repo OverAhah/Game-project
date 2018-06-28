@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import kotlinx.android.synthetic.main.act_secondfirstq.*
+import com.example.user.myapplication.Menu
 
 import android.graphics.Typeface
 import android.widget.Button
@@ -18,17 +19,18 @@ class SecondFirstQ : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.act_secondfirstq)
 
-
-        Text.text = "Вас знакомит вас с генералом, командующим основными военными силами королевства и иностранным послом, помогающим сохранить нестабильные отношения между странами.\n" +
+        Text.text = "Вас знакомит с генералом, командующим основными военными силами королевства, и иностранным послом, помогающим сохранить стабильность в отношениях между странами.\n" +
                 "Кто из них станет вашим личным советником?"
 
 
         answer1.setOnClickListener{
+            Stats.change_army(20)
             val intent = Intent(this, Intermediate1::class.java)
             startActivity(intent)
         }
 
         answer2.setOnClickListener{
+            Stats.change_fore(20)
             val intent = Intent(this, Intermediate1::class.java)
             startActivity(intent)
         }
